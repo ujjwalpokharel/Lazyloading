@@ -1,12 +1,4 @@
-import React, { lazy, Suspense } from 'react';
-
-const HomePage = lazy(() => import('./Component/Home Page'));
+import { Router } from './routing/Routing';
 export const App = () => {
-  const data = 'data is data';
-  console.log(data);
-  return (
-    <Suspense fallback="loading">
-      <HomePage />
-    </Suspense>
-  );
+  return <Router />;
 };

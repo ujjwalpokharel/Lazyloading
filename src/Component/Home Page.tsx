@@ -1,6 +1,6 @@
 import React from 'react';
 
-const HomePage = () => {
+export const HomePage = () => {
   return (
     <div>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
@@ -10,4 +10,7 @@ const HomePage = () => {
     </div>
   );
 };
-export default HomePage;
+
+export const Loader = () => {
+  return <div> loading.......</div>;
+};
